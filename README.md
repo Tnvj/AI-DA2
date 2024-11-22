@@ -18,33 +18,9 @@ This repository contains solutions for the following objectives:
 
 3. **Monte Carlo Simulation for Bayesian Belief Network (BBN) Inference**  
    - Python-based implementation of Monte Carlo simulation to compute conditional probabilities in a Bayesian Belief Network.
-   - Provides a case study example (e.g., Cloudy, Sprinkler, Rain, WetGrass) with probability estimation.  
-
+   - Provides a case study example (e.g., Aptitude, Coding Skills, Grade, Job, Startup) to model relationships and estimate probabilities.
 ---
 
-#### **Folder Structure**
-
-```plaintext
-|-- 8-puzzle/
-|   |-- hill_climbing_8_puzzle.py    # Python implementation of Hill Climbing for 8-puzzle
-|   |-- test_cases.txt               # Sample test cases for the 8-puzzle problem
-|   |-- README.md                    # Instructions for running the 8-puzzle problem
-|
-|-- prolog_scholarship/
-|   |-- scholarship_eligibility.pl   # Prolog rules for eligibility
-|   |-- students.csv                 # Sample CSV file with student data
-|   |-- server.pl                    # Prolog REST API server
-|   |-- web_interface/               # Simple web app for querying eligibility
-|       |-- index.html               # Web app interface
-|       |-- app.js                   # API integration
-|
-|-- monte_carlo_bbn/
-|   |-- monte_carlo_bbn.py           # Python implementation of Monte Carlo for BBN
-|   |-- case_study_example.py        # Example BBN case study implementation
-|   |-- README.md                    # Instructions for Bayesian Belief Network task
-```
-
----
 
 #### **Prerequisites**
 
@@ -81,7 +57,6 @@ This repository contains solutions for the following objectives:
    ```prolog
    ?- start_server(8080).
    ```  
-4. Access the web interface (`web_interface/index.html`) in a browser.  
 
 ##### **3. Monte Carlo Bayesian Network**  
 1. Navigate to the `monte_carlo_bbn/` folder.  
